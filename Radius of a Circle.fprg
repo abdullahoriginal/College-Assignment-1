@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mirza"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-05-02 07:06:38 am"/>
+        <attribute name="created" value="bWlyemE7REVTS1RPUC1QVjA2OEk1OzIwMjYtMDUtMDI7MDY6NTQ6MzIgYW07MjkxMA=="/>
+        <attribute name="edited" value="bWlyemE7REVTS1RPUC1QVjA2OEk1OzIwMjYtMDUtMDI7MDc6MDY6MzggYW07MTszMDIy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="d" type="Integer" array="False" size=""/>
+            <output expression="&quot;Give the Diameter of the Circle&quot;" newline="True"/>
+            <input variable="d"/>
+            <declare name="r" type="Integer" array="False" size=""/>
+            <assign variable="r" expression="d/2"/>
+            <output expression="&quot;The Radius is &quot; &amp; r" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

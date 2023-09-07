@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mirza"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-05-02 08:09:52 am"/>
+        <attribute name="created" value="bWlyemE7REVTS1RPUC1QVjA2OEk1OzIwMjYtMDUtMDI7MDc6NTA6NTggYW07MjkxNQ=="/>
+        <attribute name="edited" value="bWlyemE7REVTS1RPUC1QVjA2OEk1OzIwMjYtMDUtMDI7MDg6MDk6NTIgYW07MTszMDIy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="radius, angle, length" type="Integer" array="False" size=""/>
+            <output expression="&quot;Give the value of radius&quot;" newline="True"/>
+            <input variable="radius"/>
+            <output expression="&quot;Give the Value of Angle (in Radian)&quot;" newline="True"/>
+            <input variable="angle"/>
+            <assign variable="length" expression="radius*angle"/>
+            <output expression="&quot;The Length is&quot;  &amp; length" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
